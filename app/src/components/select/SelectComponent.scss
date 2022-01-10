@@ -1,0 +1,30 @@
+.continent {
+    display: grid;
+    margin-right: 20px;
+    label {
+        text-transform: capitalize;
+    }
+
+    .ant-select {
+        .ant-select-selector {
+            border: none;
+            border-bottom: 2px solid #d9d9d9;
+
+        }
+    }
+    .initial{
+        color: #6a6666da;
+    }
+    .change{
+        color:#1423d7da;
+    }
+    .ant-select-focused {
+        .ant-select-selector{
+        border-color: #1423d7da !important;
+        background-color: #dadadada;
+      outline: 0;
+      -webkit-box-shadow: none;
+      box-shadow: none;}
+  }
+}
+

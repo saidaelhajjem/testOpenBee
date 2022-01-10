@@ -1,0 +1,30 @@
+.global {
+    display: inline-flex;
+    margin:30px 10px 0px;
+    label{
+        margin: 0px 10px;
+    }
+}
+.title{
+    text-align: center;
+    color: #3c7b6b;
+}
+p{
+    margin: auto 0;
+}
+.blocdetails{
+    display: flex;
+    margin:30px 20px;
+    .image{
+        width: 216px;
+        height: auto;
+    }
+    .blcInfo{
+        margin: 0 10px;
+        .info{
+            display: flex;
+        }
+    }
+  
+  
+}

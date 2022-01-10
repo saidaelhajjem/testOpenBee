@@ -1,0 +1,17 @@
+.blocdetails {
+    display: flex;
+    margin: 30px 20px;
+    .image {
+        width: 216px;
+        height: auto;
+    }
+    .blcInfo {
+        margin: 0 10px;
+        .info {
+            display: flex;
+            p {
+                padding-top: 3px;
+            }
+        }
+    }
+}
